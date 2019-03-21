@@ -1,0 +1,12 @@
+<label>Hero name:
+  <input #heroName />
+</label>
+<label>Hero time:
+  <input #heroTime />
+</label>
+<button (click)="add1(heroName.value,heroTime.value); heroName.value='';heroTime.value=''">
+  add1
+</button>
+<ul>123
+<li *ngFor="let data of dataes" >{{data.name}}</li>
+</ul>

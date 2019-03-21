@@ -1,0 +1,8 @@
+<ul>
+  <app-user-item
+   *ngFor="let individualUserName of names"
+    [name]="individualUserName">
+    <!--[name]表示app-user-item组件中的@Input name:string，被赋值为names中的元素-->
+    hello {{name}}
+  </app-user-item>
+</ul>
